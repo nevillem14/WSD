@@ -19,7 +19,7 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore Dependencies
-      run: dotnet restore ./GitHub.WSD/GitHub.WSD.Wasm/GitHub.WSD.Wasm.csproj
+      run: dotnet restore ./WSD/WSD/WSD.csproj
     - name: Build 
       run: dotnet build ./WSD/WSD/WSD.csproj --no-restore -f $framework -c $config
     - name: Publish Artifacts
