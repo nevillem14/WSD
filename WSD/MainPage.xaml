@@ -1,0 +1,41 @@
+﻿<Page x:Class="WSD.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:WSD"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+  <Grid
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center">
+    <Grid.RowDefinitions>
+      <RowDefinition />
+      <RowDefinition />
+      <RowDefinition />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition />
+      <ColumnDefinition />
+      <ColumnDefinition />
+    </Grid.ColumnDefinitions>
+    <StackPanel Grid.Row="1" Grid.Column="1">
+
+      <StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+          <StackPanel >
+            <Image Height="64" Source="/Assets/wsd_logo_transparent.png" VerticalAlignment="Center" />
+          </StackPanel>
+          <Grid>
+            <Border BorderBrush="DarkGray" BorderThickness="0,0,1,0" Margin="15,0,15,0"/>
+          </Grid>
+          <StackPanel >
+            <TextBlock Text="Waterfall Software Development"
+              FontSize="24"
+              HorizontalAlignment="Right" VerticalAlignment="Top"/>
+            <TextBlock Text="Digital Innvovation"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"/>
+          </StackPanel>
+        </StackPanel>
+      </StackPanel>
+    </StackPanel>
+  </Grid>
+</Page>

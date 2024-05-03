@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "WSD",
+  "display": "standalone",
+  "name": "WSD",
+  "short_name": "WSD",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}
