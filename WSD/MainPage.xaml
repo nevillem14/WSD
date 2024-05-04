@@ -30,7 +30,7 @@
             <TextBlock Text="Waterfall Software Development"
               FontSize="24"
               HorizontalAlignment="Right" VerticalAlignment="Top"/>
-            <TextBlock Text="Digital Innvovation"
+            <TextBlock Text="Digital Innovation"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Bottom"/>
           </StackPanel>
