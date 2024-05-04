@@ -1,4 +1,4 @@
-name: UnoTest
+name: WSD
 on:
   pull_request:
     branches: [ main ]
