@@ -2,22 +2,15 @@
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:local="using:WSD"
+      xmlns:utu="using:Uno.UI.Toolkit"
       Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-  <Grid
+  <Page.Resources>
+    
+  </Page.Resources>
+  <Viewbox
         HorizontalAlignment="Center"
         VerticalAlignment="Center">
-    <Grid.RowDefinitions>
-      <RowDefinition />
-      <RowDefinition />
-      <RowDefinition />
-    </Grid.RowDefinitions>
-    <Grid.ColumnDefinitions>
-      <ColumnDefinition />
-      <ColumnDefinition />
-      <ColumnDefinition />
-    </Grid.ColumnDefinitions>
     <StackPanel Grid.Row="1" Grid.Column="1">
-
       <StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
           <StackPanel >
@@ -37,5 +30,5 @@
         </StackPanel>
       </StackPanel>
     </StackPanel>
-  </Grid>
+  </Viewbox>
 </Page>
