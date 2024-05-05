@@ -8,27 +8,25 @@
     
   </Page.Resources>
   <Viewbox
-        HorizontalAlignment="Center"
-        VerticalAlignment="Center">
-    <StackPanel Grid.Row="1" Grid.Column="1">
-      <StackPanel>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-          <StackPanel >
-            <Image Height="64" Source="/Assets/wsd_logo_transparent.png" VerticalAlignment="Center" />
-          </StackPanel>
-          <Grid>
-            <Border BorderBrush="DarkGray" BorderThickness="0,0,1,0" Margin="15,0,15,0"/>
-          </Grid>
-          <StackPanel >
-            <TextBlock Text="Waterfall Software Development"
-              FontSize="24"
-              HorizontalAlignment="Right" VerticalAlignment="Top"/>
-            <TextBlock Text="Digital Innovation"
-                HorizontalAlignment="Left"
-                VerticalAlignment="Bottom"/>
-          </StackPanel>
+      HorizontalAlignment="Center"
+      VerticalAlignment="Center">
+    <StackPanel>
+      <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+        <StackPanel >
+          <Image Height="64" Source="/Assets/wsd_logo_transparent.png" VerticalAlignment="Center" />
+        </StackPanel>
+        <Grid>
+          <Border BorderBrush="DarkGray" BorderThickness="0,0,.5,0" Margin="15,0,15,0"/>
+        </Grid>
+        <StackPanel >
+          <TextBlock Text="Waterfall Software Development"
+            FontSize="24"
+            HorizontalAlignment="Right" VerticalAlignment="Top"/>
+          <TextBlock Text="Digital Innovation"
+              HorizontalAlignment="Left"
+              VerticalAlignment="Bottom"/>
         </StackPanel>
       </StackPanel>
     </StackPanel>
-  </Viewbox>
+ </Viewbox>
 </Page>
